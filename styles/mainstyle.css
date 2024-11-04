@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Open sans', sans-serif;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 10px;
+    gap: 20px;
+}
+
+.logo img {
+    height: 80px;
+    padding: 10px 30px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+}
+
+.user-icon img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #D91A2A; /* Cor de fundo da navbar */
+    padding: 10px 0; /* Espaçamento vertical */
+}
+
+.line {
+    height: 4px; /* Altura da linha verde */
+    background-color: #168C34; /* Cor da linha */
+    margin-bottom: 10px; /* Espaço entre a linha e a navbar */
+}
+
+.navbar nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento */
+    margin: 0; /* Remove margem */
+    display: flex; /* Flexbox para itens da navbar */
+    justify-content: center; /* Centraliza os itens */
+}
+
+.navbar nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+.navbar nav ul li a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Texto em negrito */
+}
